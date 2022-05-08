@@ -1,0 +1,4 @@
+*.gdoc
+*.gsheet
+*.ini
+.DS_Store
