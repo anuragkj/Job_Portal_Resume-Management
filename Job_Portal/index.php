@@ -126,7 +126,8 @@ require_once("db.php");
            * Store sql query result in $result variable and loop through it if we have any rows
            * returned from database. $result->num_rows will return total number of rows returned from database.
           */
-          $sql = "SELECT * FROM job_post Order By Rand() Limit 4";
+          /*$sql = "SELECT * FROM job_post Order By rand() Limit 4";*/
+          $sql = "SELECT * FROM job_post Order By createdat Limit 4";
           $result = $conn->query($sql);
           if($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) 
