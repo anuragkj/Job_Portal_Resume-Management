@@ -1,4 +1,4 @@
-# Job-Portal by Gunesh Shanbhag
+# Job-Portal 
 
 Made with Core PHP and Bootstrap CSS Framework. 🤍
 
